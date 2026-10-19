@@ -1,0 +1,31 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# CMake build directories
+build/
+cmake-build-*/
+
+# Debugging and profiling artifacts
+core
+core.*
+
+# Editor and operating system files
+.vs/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local test and coverage output
+coverage/
+*.gcda
+*.gcno
